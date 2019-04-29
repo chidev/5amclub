@@ -1,17 +1,11 @@
 <template>
-  <div id="app">
+  <main id="app">
     <Chat/>
-    <vue-webrtc width="100%" roomId="roomId"></vue-webrtc>
-  </div>
+  </main>
 </template>
 
 <script>
-import Vue from "vue";
-import WebRTC from "vue-webrtc";
-
 import Chat from "./components/Chat";
-
-Vue.use(WebRTC);
 
 export default {
   name: "App",
